@@ -1,0 +1,10 @@
+server:
+  port: 53333
+
+amazon:
+  s3:
+    bucketName: hbucket-quarkus
+    accessKey: AKIAVMMNMXLY6X22WOXW
+    secretKey: 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
+    signingRegion: eu-central-1
+    queueUrl: https://sqs.eu-central-1.amazonaws.com/370200591089/quarkusqueue
